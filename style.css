@@ -1,0 +1,24 @@
+#puzzle-container {
+    list-style: none;
+    width: 430px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#puzzle-container li {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    text-align: center;
+    margin: 0;
+    border: 3px solid white;
+    font: 600 16px/100px "Arial";
+}
+
+.button-c {
+    width: 200px;
+    margin: 0 auto;
+}
